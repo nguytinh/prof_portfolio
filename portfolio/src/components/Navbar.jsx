@@ -17,7 +17,7 @@ function NavigationBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="/prof_portfolio" className={getActiveLinkClass('/prof_portfolio')} onClick={() => setExpanded(false)}>
+              <Nav.Link href="/prof_portfolio/" className={getActiveLinkClass('/prof_portfolio/')} onClick={() => setExpanded(false)}>
                 Home
               </Nav.Link>
               <Nav.Link href="/prof_portfolio/about" className={getActiveLinkClass('/prof_portfolio/about')} onClick={() => setExpanded(false)}>
