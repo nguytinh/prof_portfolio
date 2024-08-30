@@ -42,7 +42,7 @@ function Contact() {
   animate={{ opacity: 1 }}
   exit={{ opacity: 0 }}
   transition={{
-    duration: 0.8, // Smooth animation duration
+    duration: 0.3, // Smooth animation duration
     ease: "easeInOut" // Easing function for a smoother transition
   }}
     >

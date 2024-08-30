@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import "../styles/Navbar.css";
 
@@ -17,21 +17,21 @@ function NavigationBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="/prof_portfolio/" className={getActiveLinkClass('/prof_portfolio')} onClick={() => setExpanded(false)}>
+              <Nav.Link as={NavLink} to="/" className={getActiveLinkClass('/')} onClick={() => setExpanded(false)}>
                 Home
               </Nav.Link>
-              <Nav.Link href="/about" className={getActiveLinkClass('/about')} onClick={() => setExpanded(false)}>
+              <Nav.Link as={NavLink} to="/about" className={getActiveLinkClass('/about')} onClick={() => setExpanded(false)}>
                 About
               </Nav.Link>
-              <Nav.Link href="/contact" className={getActiveLinkClass('/contact')} onClick={() => setExpanded(false)}>
+              <Nav.Link as={NavLink} to="/contact" className={getActiveLinkClass('/contact')} onClick={() => setExpanded(false)}>
                 Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div class="wrapper">
-      <div class="divider div-transparent div-arrow-down"></div>
+      <div className="wrapper">
+        <div className="divider div-transparent div-arrow-down"></div>
       </div>
     </>
   );
