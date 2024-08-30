@@ -17,13 +17,13 @@ function NavigationBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="/home" className={getActiveLinkClass('/prof_portfolio/home')} onClick={() => setExpanded(false)}>
+              <Nav.Link href="/prof_portfolio" className={getActiveLinkClass('/prof_portfolio')} onClick={() => setExpanded(false)}>
                 Home
               </Nav.Link>
-              <Nav.Link href="/about" className={getActiveLinkClass('/prof_portfolio/about')} onClick={() => setExpanded(false)}>
+              <Nav.Link href="/prof_portfolio/about" className={getActiveLinkClass('/prof_portfolio/about')} onClick={() => setExpanded(false)}>
                 About
               </Nav.Link>
-              <Nav.Link href="/contact" className={getActiveLinkClass('/prof_portfolio/contact')} onClick={() => setExpanded(false)}>
+              <Nav.Link href="/prof_portfolio/contact" className={getActiveLinkClass('/prof_portfolio/contact')} onClick={() => setExpanded(false)}>
                 Contact
               </Nav.Link>
             </Nav>
