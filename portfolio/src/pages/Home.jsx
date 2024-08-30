@@ -86,7 +86,7 @@ function Home() {
         {/* Project Cards */}
         <MDBRow className="mb-4" style={{ borderColor: 'white', borderRadius:"0%" }}>
           <MDBCol md="12" style={{ borderColor: 'white', borderRadius:"0%" }}>
-            <Link to="/prof_portfolio/4yourinventory" style={{ textDecoration: 'none', borderRadius: "0%" }} onClick={handleCardClick}>
+            <Link to="/4yourinventory" style={{ textDecoration: 'none', borderRadius: "0%" }} onClick={handleCardClick}>
               <MDBCard className="hover-card" style={{ borderColor: 'white', borderRadius:"0%" }}>
                 <div className="bg-image hover-overlay" style={{ borderColor: 'white', borderRadius:"0%" }}>
                   <img src={inventoryImage} className="w-100" alt="4YourInventory" style={{ height: '300px', objectFit: 'cover', borderRadius: "0%"}} />
@@ -114,7 +114,7 @@ function Home() {
         {/* Repeat for other cards */}
         <MDBRow className="mb-4">
           <MDBCol md="12">
-            <Link to="/prof_portfolio/chess" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
+            <Link to="/chess" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
               <MDBCard className="hover-card" style={{ borderColor: 'white' }}>
                 <div className="bg-image hover-overlay" style={{ borderColor: 'white', borderRadius:"0%" }}>
                   <img src={chessImage} className="w-100" alt="Chess AI" style={{ height: '300px', objectFit: 'cover' }} />
@@ -142,7 +142,7 @@ function Home() {
         {/* Add similar structures for other project cards */}
         <MDBRow className="mb-4">
           <MDBCol md="12">
-            <Link to="/prof_portfolio/restaurant" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
+            <Link to="/restaurant" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
               <MDBCard className="hover-card" style={{ borderColor: 'white' }}>
                 <div className="bg-image hover-overlay" style={{ borderColor: 'white', borderRadius:"0%" }}>
                   <img src={restaurantImage} className="w-100" alt="Adaptive Multi-Restaurant Web Application" style={{ height: '300px', objectFit: 'cover' }} />
@@ -169,7 +169,7 @@ function Home() {
 
         <MDBRow className="mb-4">
           <MDBCol md="12">
-            <Link to="/prof_portfolio/demonslayer" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
+            <Link to="/demonslayer" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
               <MDBCard className="hover-card" style={{ borderColor: 'grey', borderRadius: 0 }}>
                 <div className="bg-image hover-overlay" style={{ borderColor: 'white', borderRadius:"0%" }}>
                   <img src={oopImage} className="w-100" alt="Demon Slayer - Object Oriented Programming Simulation" style={{ height: '300px', objectFit: 'cover' }} />
