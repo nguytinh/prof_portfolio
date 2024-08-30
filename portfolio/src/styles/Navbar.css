@@ -1,0 +1,60 @@
+
+/* Navbar.css */
+.navbar-link {
+  color: grey !important; /* Default color for inactive links */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth color transition */
+  padding: 10px 15px; /* Adjust padding as needed */
+}
+
+.navbar-link.active {
+  color: black !important; /* Color for active link */
+}
+
+.navbar-link:hover {
+  color: #333; /* Color on hover, if needed */
+}
+
+/* Ensure proper spacing and alignment for navbar items */
+.navbar-item {
+  margin: 0 10px; /* Adjust horizontal margin for spacing between items */
+}
+
+.wrapper
+{
+  padding-bottom: 10px;
+}
+
+.divider
+{
+  position: relative;
+  margin-top: 10px;
+  height: 1px;
+}
+
+.div-transparent:before
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.div-arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
+}

@@ -1,0 +1,31 @@
+
+  /* Hover Animation for Social Icons */
+  .social-icon {
+    color: black; /* Default color */
+    transition: color 0.3s ease; /* Smooth color transition */
+    margin: 0 15px; /* Add margin to space out the icons */
+    display: inline-block; /* Ensures the icons are inline and spacing applies correctly */
+  }
+  
+  .social-icon:hover {
+    color: gray; /* Color on hover */
+  }
+  
+  /* Back to Top Icon */
+  .back-to-top {
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding-bottom: 50px; /* Increase padding at the bottom */
+  }
+  
+  .back-to-top:hover {
+    color: gray;
+  }
+  
+  /* Ensure Container Padding */
+  .MDBContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  

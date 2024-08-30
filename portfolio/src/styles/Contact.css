@@ -1,0 +1,17 @@
+/* Remove border from container */
+.container {
+    border: none !important; /* Ensures no border around the container */
+  }
+  
+  /* Apply border and sharp corners to form controls */
+  .form-control {
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 0; /* Sharp corners */
+  }
+  
+  /* Apply border and sharp corners to textarea */
+  .form-control:focus {
+    border-color: #495057; /* Border color on focus */
+    box-shadow: none; /* Remove box shadow on focus */
+  }
+  
