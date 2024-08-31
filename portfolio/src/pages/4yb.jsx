@@ -65,9 +65,9 @@ function Fouryb() {
             </MDBBtn>
           </MDBCol>
         </MDBRow>
-        <MDBRow className="my-4">
-          <MDBCol>
-            <MDBCard style = {{ border: "none" }}>
+        <MDBRow className="my-4 justify-content-center">
+          <MDBCol md="auto">
+            <MDBCard style={{ border: "none", width: "800px" }}>
               <MDBCardImage 
                 src={workbenchImg} 
                 alt="Workbench" 
@@ -84,9 +84,9 @@ function Fouryb() {
           </MDBCol>
         </MDBRow>
 
-        <MDBRow className="my-4">
-          <MDBCol>
-            <MDBCard style = {{ border: "none" }}>
+        <MDBRow className="my-4 justify-content-center">
+          <MDBCol md="auto">
+            <MDBCard style = {{ border: "none", width: '1000px' }}>
               <MDBCardImage 
                 src={hostmonsterImg} 
                 alt="Host Monster" 
@@ -103,9 +103,9 @@ function Fouryb() {
           </MDBCol>
         </MDBRow>
 
-        <MDBRow className="my-4">
-          <MDBCol>
-            <MDBCard style = {{ border: "none" }}>
+        <MDBRow className="my-4 justify-content-center">
+          <MDBCol md="auto">
+            <MDBCard style = {{ border: "none", width: "1000px" }}>
               <MDBCardImage 
                 src={logoImg} 
                 alt="4YourInventory Technologies" 
@@ -122,9 +122,9 @@ function Fouryb() {
           </MDBCol>
         </MDBRow>
 
-        <MDBRow className="my-4">
-          <MDBCol>
-            <MDBCard style = {{ border: "none" }}>
+        <MDBRow className="my-4 justify-content-center">
+          <MDBCol md="auto">
+            <MDBCard style = {{ border: "none", width: "1000px" }}>
               <MDBCardImage 
                 src={lockedPageImg} 
                 alt="Login Page" 
@@ -141,9 +141,9 @@ function Fouryb() {
           </MDBCol>
         </MDBRow>
 
-        <MDBRow className="my-4">
-          <MDBCol>
-            <MDBCard style = {{ border: "none" }}>
+        <MDBRow className="my-4 justify-content-center">
+          <MDBCol md="auto">
+            <MDBCard style = {{ border: "none", width: "1000px" }}>
               <MDBCardImage 
                 src={fullTableImg} 
                 alt="Full Database" 
@@ -160,9 +160,9 @@ function Fouryb() {
           </MDBCol>
         </MDBRow>
 
-        <MDBRow className="my-4">
-          <MDBCol>
-            <MDBCard style = {{ border: "none" }}>
+        <MDBRow className="my-4 justify-content-center">
+          <MDBCol md="auto">
+            <MDBCard style = {{ border: "none", width:"1000px" }}>
             <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <div className="d-flex justify-content-between" style={{ paddingBottom: "30px" }} >
                     <MDBCardImage 
@@ -187,9 +187,9 @@ function Fouryb() {
           </MDBCol>
         </MDBRow>
 
-        <MDBRow className="my-4">
-          <MDBCol>
-            <MDBCard style = {{ border: "none" }}>
+        <MDBRow className="my-4 justify-content-center">
+          <MDBCol md="auto">
+            <MDBCard style = {{ border: "none", width:"1000px" }}>
             <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <div className="d-flex justify-content-between" style={{ paddingBottom: "30px" }}>
                     <MDBCardImage 
@@ -214,9 +214,9 @@ function Fouryb() {
           </MDBCol>
         </MDBRow>
 
-        <MDBRow className="my-4">
-          <MDBCol>
-            <MDBCard style = {{ border: "none" }}>
+        <MDBRow className="my-4 justify-content-center">
+          <MDBCol md="auto">
+            <MDBCard style = {{ border: "none", width:"1000px" }}>
               <MDBCardImage 
                 src={addProductImg} 
                 alt="Add Product" 
