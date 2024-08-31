@@ -39,7 +39,7 @@ function Chessai() {
         </MDBRow>
         {/* GitHub Button */}
         <MDBRow className="mt-0 mb-8 d-flex justify-content-center"> {/* Adjusted from mt-4 to mt-2 and mb-4 to mb-5 */}
-          <MDBCol md="auto">
+          <MDBCol md="auto" className="d-flex justify-content-center">
             <MDBBtn
               href="https://github.com/keonroohparvar/AI_ChessEngine"
               target="_blank"
@@ -58,8 +58,8 @@ function Chessai() {
           </MDBCol>
         </MDBRow>
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style={{ border: "none", width:"800px"}}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style={{ border: "none", width:"80%"}}>
               <div className="d-flex justify-content-between">
                 <MDBCardImage 
                   src={Chess1} 

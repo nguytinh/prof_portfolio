@@ -38,8 +38,8 @@ function DemonSlayer() {
           </MDBCol>
         </MDBRow>
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style={{ border: "none", width: "900px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style={{ border: "none", width: "80%" }}>
               <div className="d-flex justify-content-between">
                 <MDBCardImage 
                   src={Simulation} 
@@ -65,8 +65,8 @@ function DemonSlayer() {
         </MDBRow>
 
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style={{ border: "none", width: "900px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style={{ border: "none", width: "80%" }}>
                 <MDBCardImage 
                   src={CustomIMG} 
                   alt="Tanjiro Sprites" 

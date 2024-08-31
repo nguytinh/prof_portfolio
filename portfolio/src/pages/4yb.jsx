@@ -47,7 +47,7 @@ function Fouryb() {
         </MDBRow>
         {/* GitHub Button */}
         <MDBRow className="mt-0 mb-5 d-flex justify-content-center"> {/* Adjusted from mt-4 to mt-2 and mb-4 to mb-5 */}
-          <MDBCol md="auto">
+          <MDBCol md="auto" className="d-flex justify-content-center">
             <MDBBtn
               href="https://github.com/lac-phong/4YourInventory"
               target="_blank"
@@ -66,8 +66,8 @@ function Fouryb() {
           </MDBCol>
         </MDBRow>
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style={{ border: "none", width: "800px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style={{ border: "none", width: "80%" }}>
               <MDBCardImage 
                 src={workbenchImg} 
                 alt="Workbench" 
@@ -85,8 +85,8 @@ function Fouryb() {
         </MDBRow>
 
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style = {{ border: "none", width: '1000px' }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style = {{ border: "none", width: '80%' }}>
               <MDBCardImage 
                 src={hostmonsterImg} 
                 alt="Host Monster" 
@@ -104,8 +104,8 @@ function Fouryb() {
         </MDBRow>
 
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style = {{ border: "none", width: "1000px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style = {{ border: "none", width: "90%" }}>
               <MDBCardImage 
                 src={logoImg} 
                 alt="4YourInventory Technologies" 
@@ -123,8 +123,8 @@ function Fouryb() {
         </MDBRow>
 
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style = {{ border: "none", width: "1000px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style = {{ border: "none", width: "90%" }}>
               <MDBCardImage 
                 src={lockedPageImg} 
                 alt="Login Page" 
@@ -142,8 +142,8 @@ function Fouryb() {
         </MDBRow>
 
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style = {{ border: "none", width: "1000px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style = {{ border: "none", width: "90%" }}>
               <MDBCardImage 
                 src={fullTableImg} 
                 alt="Full Database" 
@@ -161,8 +161,8 @@ function Fouryb() {
         </MDBRow>
 
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style = {{ border: "none", width:"1000px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style = {{ border: "none", width:"80%" }}>
             <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <div className="d-flex justify-content-between" style={{ paddingBottom: "30px" }} >
                     <MDBCardImage 
@@ -188,8 +188,8 @@ function Fouryb() {
         </MDBRow>
 
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style = {{ border: "none", width:"1000px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style = {{ border: "none", width:"80%" }}>
             <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <div className="d-flex justify-content-between" style={{ paddingBottom: "30px" }}>
                     <MDBCardImage 
@@ -215,8 +215,8 @@ function Fouryb() {
         </MDBRow>
 
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style = {{ border: "none", width:"1000px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style = {{ border: "none", width:"80%" }}>
               <MDBCardImage 
                 src={addProductImg} 
                 alt="Add Product" 

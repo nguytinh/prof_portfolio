@@ -40,7 +40,7 @@ function Restaurant() {
         </MDBRow>
         {/* GitHub Button */}
   <MDBRow className="mt-0 mb-8 d-flex justify-content-center"> {/* Adjusted from mt-4 to mt-2 and mb-4 to mb-5 */}
-    <MDBCol md="auto">
+    <MDBCol md="auto" className="d-flex justify-content-center">
       <MDBBtn
         href="https://github.com/lac-phong/teazerbobasnacks"
         target="_blank"
@@ -59,8 +59,8 @@ function Restaurant() {
     </MDBCol>
   </MDBRow>
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style={{ border: "none", width:"900px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style={{ border: "none", width:"80%" }}>
               <div className="d-flex justify-content-between">
                 <MDBCardImage 
                   src={Banhmi} 
@@ -85,8 +85,8 @@ function Restaurant() {
           </MDBCol>
         </MDBRow>
         <MDBRow className="my-4 justify-content-center">
-          <MDBCol md="auto">
-            <MDBCard style={{ border: "none", width:"900px" }}>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBCard style={{ border: "none", width:"80%" }}>
                 <MDBCardImage 
                     src={Git} 
                     alt="Github" 
