@@ -8,7 +8,8 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
-  MDBCardImage
+  MDBCardImage,
+  MDBBtn
 } from 'mdb-react-ui-kit';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 
@@ -44,7 +45,26 @@ function Fouryb() {
             </p>
           </MDBCol>
         </MDBRow>
-
+        {/* GitHub Button */}
+        <MDBRow className="mt-0 mb-5 d-flex justify-content-center"> {/* Adjusted from mt-4 to mt-2 and mb-4 to mb-5 */}
+          <MDBCol md="auto">
+            <MDBBtn
+              href="https://github.com/lac-phong/4YourInventory"
+              target="_blank"
+              color="dark"
+              size="sm"
+              style={{
+                transition: 'background-color 0.3s ease',
+                padding: '8px 16px',
+                fontSize: '14px',
+              }}
+              onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'gray')}
+              onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '')}
+            >
+              GitHub
+            </MDBBtn>
+          </MDBCol>
+        </MDBRow>
         <MDBRow className="my-4">
           <MDBCol>
             <MDBCard style = {{ border: "none" }}>
