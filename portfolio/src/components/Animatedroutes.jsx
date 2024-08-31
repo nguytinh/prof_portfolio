@@ -8,6 +8,7 @@ import { AnimatePresence } from 'framer-motion';
 import DemonSlayer from '../pages/DemonSlayer';
 import  Restaurant  from '../pages/Restaurant';
 import Chessai from '../pages/Chessai';
+import More from '../pages/More';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -22,6 +23,7 @@ function AnimatedRoutes() {
         <Route path="/demonslayer" element={<DemonSlayer />} />
         <Route path="/restaurant" element={<Restaurant />} />
         <Route path="/chess" element={<Chessai />} />
+        <Route path="/more" element={<More />} />
       </Routes>
     </AnimatePresence>
   );

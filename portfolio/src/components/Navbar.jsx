@@ -57,6 +57,14 @@ function NavigationBar() {
               >
                 Contact
               </Nav.Link>
+              <Nav.Link
+                as={NavLink}
+                to="/more"
+                className={getActiveLinkClass('/more')}
+                onClick={() => setExpanded(false)}
+              >
+                More
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

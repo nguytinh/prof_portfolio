@@ -1,45 +1,60 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from 'mdb-react-ui-kit';
-import "../styles/About.css"; // For additional styling if needed
+import { scroller } from 'react-scroll';
+import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardText, MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
+import "../styles/About.css";
 import resume from '../assets/Tinh_s_Resume.pdf';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import ScrollToTopButton from '../components/ScrollToTopButton';
-
-// Import image
-import profileImage from '../assets/profile.JPG'; // Replace with your image path
+import profileImage from '../assets/profile.JPG';
 
 function AboutMe() {
+  const navigate = useNavigate(); // Initialize useNavigate hook
+
+  const handleIconClick = () => {
+    // Perform navigation
+    navigate('/more');
+  
+    // Delay scroll to allow for navigation completion
+    setTimeout(() => {
+      scroller.scrollTo('top', {
+        duration: 200,
+        delay: 0,
+        smooth: 'easeInOutQuart',
+        offset: -180, // Adjust for the height of your navbar
+      });
+    }, 100); // 100ms delay for smooth transition
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{
-        duration: 0.3, // Smooth animation duration
-        ease: "easeInOut" // Easing function for a smoother transition
+        duration: 0.3,
+        ease: "easeInOut"
       }}
     >
       <MDBContainer className="my-5">
-        {/* Header */}
-        <MDBRow className="text-center mb-4">
+        <MDBRow id = "top" className="text-center mb-4">
           <MDBCol>
             <h1 style={{ fontSize: '3rem', color: 'black', paddingTop: "12px" }}>Tinh-Phong Nguyen</h1>
             <p style={{ fontSize: '1.25rem', color: 'gray' }}>Computer Scientist</p>
           </MDBCol>
         </MDBRow>
 
-        {/* Resume Button */}
-        <MDBRow className="text-center mb-4"> {/* Reduced margin-bottom */}
+        <MDBRow className="text-center mb-4">
           <MDBCol>
             <MDBBtn
               href={resume}
-              target="_blank" 
+              target="_blank"
               color="dark"
-              size="sm" // Adjust size to small
+              size="sm"
               style={{
-                transition: 'background-color 0.3s ease', // Smooth transition
-                padding: '8px 16px', // Adjust padding to make the button smaller
-                fontSize: '14px', // Adjust font size to make the button text smaller
+                transition: 'background-color 0.3s ease',
+                padding: '8px 16px',
+                fontSize: '14px',
               }}
               onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'gray')}
               onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '')}
@@ -49,7 +64,6 @@ function AboutMe() {
           </MDBCol>
         </MDBRow>
 
-        {/* Profile Image Card */}
         <MDBRow className="text-center mb-4">
           <MDBCol md="4" className="d-flex justify-content-center mx-auto">
             <MDBCard style={{ width: '100%', border: 'none', boxShadow: 'none' }}>
@@ -63,67 +77,44 @@ function AboutMe() {
           </MDBCol>
         </MDBRow>
 
-        {/* About Section */}
-        <MDBRow className="mb-4 text-center">
-          {/* Education */}
-          <MDBCol md="4" className="d-flex justify-content-center">
+        <MDBRow className="mb-2">
+          <MDBCol md="8" className="mx-auto">
             <MDBCard style={{ border: 'none', textAlign: 'center', width: '100%', boxShadow: 'none' }}>
-              <MDBCardBody className="d-flex flex-column align-items-center justify-content-center" style={{ minHeight: '200px' }}>
-                <MDBCardTitle style={{ color: 'black', fontWeight: 'bold' }}>Education</MDBCardTitle>
-                <MDBCardText>
-                  <strong>California Polytechnic State University, San Luis Obispo</strong> [2026]<br />
-                  Bachelor of Science in Computer Science<br />
-                  GPA: 3.81<br/>
-                  President's Honor Roll | Dean's Honor Roll
-                </MDBCardText>
-              </MDBCardBody>
-            </MDBCard>
-          </MDBCol>
-
-          {/* About Me Description */}
-          <MDBCol md="4" className="d-flex justify-content-center">
-            <MDBCard style={{ border: 'none', textAlign: 'center', width: '100%', boxShadow: 'none' }}>
-              <MDBCardBody className="d-flex align-items-center justify-content-center" style={{ minHeight: '200px' }}>
+              <MDBCardBody>
                 <MDBCardText>
                   I am a third-year Computer Science major at Cal Poly SLO, specializing in full-stack development, machine learning, and software engineering. Driven by curiosity and innovation, I'm keen to explore dynamic internship opportunities.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
+        </MDBRow>
 
-          {/* Experience */}
-          <MDBCol md="4" className="d-flex justify-content-center">
-            <MDBCard style={{ border: 'none', textAlign: 'center', width: '100%', boxShadow: 'none' }}>
-              <MDBCardBody className="d-flex flex-column align-items-center justify-content-center" style={{ height: '100%' }}>
-                <MDBCardTitle style={{ color: 'black', fontWeight: 'bold' }}>Experience</MDBCardTitle>
+        <MDBRow className="text-center">
+          <MDBCol>
+            <MDBCard style={{ border: 'none', boxShadow: 'none' }}>
+              <MDBCardBody>
                 <MDBCardText>
-                  <strong>4yourbusiness INC.</strong><br />
-                  <em>Full-stack Software Engineering Intern</em><br />
-                  June 2024 - Aug 2024
-                </MDBCardText>
-                <MDBCardText>
-                  <em>Operations Technician</em><br />
-                  Oct. 2021 – July 2023
+                Apart from my passion for software development, I’m an active, energetic, and healthy person. I like playing basketball with my friends which improves my physical fitness and develops team spirit. Outside the court, I see the world through the eyes of a photographer and find beauty in ordinary things. Recently, I have also developed a passion for fashion, dressing in new outfits to unveil my creativity. My interests go even beyond that—I exercise at the gym to feel fresh and full of energy, play video games to enter a different world, build 3D metal laser-cut models, put together large Gundams, and assemble small Pokémon Legos. These hobbies give me a sense of accomplishment and satisfaction. 
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
         </MDBRow>
 
-        {/* Technical Skills */}
-        <MDBRow className="text-center">
+        <MDBRow className="text-center mt-4">
           <MDBCol>
-            <MDBCard style={{ border: 'none', boxShadow: 'none' }}>
-              <MDBCardBody>
-                <MDBCardTitle style={{ color: 'black', fontWeight: 'bold' }}>Technical Skills</MDBCardTitle>
-                <MDBCardText>
-                  <strong>Languages:</strong> Java, Python, C, SQL, JavaScript, HTML/CSS, Assembly<br />
-                  <strong>Frameworks:</strong> React, Node.js, Spring, Express.js, Electron.js, Bootstrap, Tailwind, Material-UI<br />
-                  <strong>Developer Tools:</strong> Git, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, MySQL, Microsoft Access, VIM, Linux CLI<br />
-                  <strong>Libraries:</strong> TensorFlow, NumPy, Matplotlib
-                </MDBCardText>
-              </MDBCardBody>
-            </MDBCard>
+            <MDBIcon
+              fas
+              icon="info-circle"
+              style={{
+                fontSize: '3rem', // Larger icon
+                color: 'rgb(40,40,40)', // Dark gray color
+                transition: 'color 0.3s ease',
+              }}
+              onMouseOver={(e) => (e.currentTarget.style.color = 'darkgray')}
+              onMouseOut={(e) => (e.currentTarget.style.color = 'rgb(40,40,40)')}
+              onClick={handleIconClick} // Handle click to navigate and scroll
+            />
           </MDBCol>
         </MDBRow>
       </MDBContainer>
