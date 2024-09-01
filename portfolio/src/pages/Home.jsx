@@ -156,7 +156,7 @@ function Home() {
                       <MDBCardBody style={{ color: 'white', textAlign: 'center' }}>
                         <MDBCardTitle>Adaptive Multi-Restaurant Web Application</MDBCardTitle>
                         <MDBCardText style={{ fontSize: '16px' }}>
-                          Technologies: React, Bootstrap, Git
+                          Technologies: React, Node.js, Bootstrap, Git
                         </MDBCardText>
                       </MDBCardBody>
                     </div>
