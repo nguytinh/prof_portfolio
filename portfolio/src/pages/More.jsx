@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import { motion } from 'framer-motion';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import "../styles/More.css";
 
 // Import images
 import img1 from '../assets/More/img1.JPG';
@@ -17,6 +18,7 @@ import img10 from '../assets/More/img10.JPEG';  // Vertical image
 import img11 from '../assets/More/img11.JPG';
 import img12 from '../assets/More/img12.JPG';
 import img13 from '../assets/More/img13.JPG';
+
 
 function More() {
   // Array of imported images with their orientation (vertical or horizontal)
@@ -52,7 +54,15 @@ function More() {
         {/* Header for the page */}
         <MDBRow className="text-center mb-4">
           <MDBCol>
-            <h1 style={{ fontSize: '3rem', color: 'black' }}>My Photos</h1>
+          <h1
+            style={{
+              fontSize: '3rem',
+              color: 'black', // White color for high contrast
+              textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' // Black shadow for better readability
+            }}
+          >
+            My Photos
+          </h1>
           </MDBCol>
         </MDBRow>
 
