@@ -1,0 +1,17 @@
+/* About.module.css */
+
+.imgWrapper {
+  display: inline-block;
+  border-radius: 0%;
+  padding: 5px;
+  background: linear-gradient(black, lightgray);
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+.imgFluid {
+  border-radius: 0%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
