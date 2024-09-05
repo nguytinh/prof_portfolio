@@ -34,8 +34,7 @@ function Restaurant() {
           <MDBCol md="8">
             <h1 className="display-4 mb-4">Adaptive Multi-Restaurant Web Application</h1>
             <p className="lead mb-5">
-              Developed a comprehensive multi-restaurant web application designed to drive business growth and enhance user engagement across three distinct dining establishments. This project successfully increased overall website traffic by 35%, showcasing my ability to deliver impactful, user-centered solutions.
-            </p>
+            Created an integrated web application for multiple restaurants with the goal of stimulating business and improving the customers’ experience in three different restaurants. This particular project has effectively raised the general web traffic by 35%; proving my capacity in creating effective, user-friendly solutions.</p>
           </MDBCol>
         </MDBRow>
         {/* GitHub Button */}
@@ -78,8 +77,7 @@ function Restaurant() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Innovative Front-End Engineering</MDBCardTitle>
                 <MDBCardText>
-                  Engineered responsive, front-end web applications tailored to the unique needs of three restaurants, seamlessly integrating them into a single dynamic platform. Leveraging React’s component-based architecture, I crafted reusable, modular UI components that significantly enhanced code maintainability and reduced development time by an estimated two work weeks. The project exemplifies the application of advanced web development techniques to create a user-friendly and high-performance interface.
-                </MDBCardText>
+                I designed responsive, frontend web applications for three restaurants by molding their particular needs into one dynamic platform. I utilized React's component-based architecture to my advantage, reusing UI components in a modular fashion to drive code maintainability and save an estimated two work weeks in development. This project was a good example of advanced web development techniques being applied in creating a user-friendly and high-performance interface.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -95,8 +93,7 @@ function Restaurant() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Effective Collaboration and Version Control</MDBCardTitle>
                 <MDBCardText>
-                  Demonstrated exceptional teamwork and version control expertise by utilizing GitHub for collaborative development workflows. My contributions included rigorous code reviews, ensuring the delivery of high-quality, production-ready code. This project underscored the importance of efficient collaboration in software development, with an emphasis on maintaining a robust and scalable codebase.
-                </MDBCardText>
+                Demonstrated the highest teamwork and version control with GitHub for collaborative development workflows. Contributed to their codebase in terms of in depth code reviews; this is to ensure production-level code base delivery. The project further has emphasized the ability to collaborate on software projects seamlessly and to maintain a robust, scalable codebase.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>

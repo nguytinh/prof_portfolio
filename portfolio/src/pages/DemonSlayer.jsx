@@ -33,8 +33,7 @@ function DemonSlayer() {
           <MDBCol md="8">
             <h1 className="display-4 mb-4">Demon Slayer Simulation</h1>
             <p className="lead mb-5">
-              The Demon Slayer Simulation project is a sophisticated software that simulates various scenarios from the popular anime, allowing users to experience and interact with different elements of the Demon Slayer universe through a fully developed object-oriented programming (OOP) model.
-            </p>
+            The Demon Slayer Simulation project is a program with many complicated situations to realistically stimulate the situation from the Demon Slayer Anime, including real scenes, which goes fully fleshed in an object-oriented program modeling.</p>
           </MDBCol>
         </MDBRow>
         <MDBRow className="my-4 justify-content-center">
@@ -57,8 +56,7 @@ function DemonSlayer() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Refactoring with SOLID Principles</MDBCardTitle>
                 <MDBCardText>
-                  This project involved the massive refactoring of an extremely large and poorly built program. By applying SOLID OOP principles, the program was transformed into a well-structured and maintainable codebase. The simulation engine now adheres to single responsibility, open-closed, and other SOLID principles, ensuring that each component is modular, extensible, and easy to maintain. The refactoring process greatly improved the performance and scalability of the software, making it a robust platform for simulating the complex interactions within the Demon Slayer universe.
-                </MDBCardText>
+                This project involved the refactoring of a very big, badly built program. The refactored program used sound principles of OOP in restructuring the codebase from not that well-structured and maintainable, into one that was well-structured and maintainable. This refactored simulation engine is single responsibility-obedient, open-closed, utilized SOLID OOP principles, worked with modular components, extensible, and easy to maintain. This really improved performance and scalability a lot, making it a robust platform on which one could simulate every interaction that is going on in the Demon Slayer world.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -75,8 +73,7 @@ function DemonSlayer() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Custom Graphics, Entities, and Functionality</MDBCardTitle>
                 <MDBCardText>
-                  As a final step in this project, custom graphics, entities, and unique functionalities were developed to enrich the user experience. These custom elements not only enhanced the visual appeal of the simulation but also provided a more immersive and interactive experience, allowing users to fully engage with the various scenarios and characters from the Demon Slayer universe.
-                </MDBCardText>
+                The last part of the project involves the development of custom graphics and entities, including other custom functionalities, in an effort to enhance user experience. Custom elements added visual appeal to this simulation, even while providing an immersive and interactive experience where users could immerse themselves with scenarios and characters from the Demon Slayer universe.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>

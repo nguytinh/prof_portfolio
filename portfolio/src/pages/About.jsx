@@ -154,8 +154,7 @@ function AboutMe() {
             <MDBCard style={{ border: 'none', textAlign: 'center', width: '100%', boxShadow: 'none', backgroundColor: "rgba(255, 255, 255, 0)" }}>
               <MDBCardBody>
                 <MDBCardText>
-                  I am a third-year Computer Science major at Cal Poly SLO, specializing in full-stack development, machine learning, and software engineering. Driven by curiosity and innovation, I'm keen to explore dynamic internship opportunities.
-                </MDBCardText>
+                I’m a third-year computer science student at Cal Poly SLO, my concentration is full-stack development, machine learning and software engineering. Being inspired by curiosity and innovation, I am interested in versatile internships.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -166,7 +165,7 @@ function AboutMe() {
             <MDBCard style={{ border: 'none', boxShadow: 'none', backgroundColor: "rgba(255, 255, 255, 0)", paddingBottom:"60px" }}>
               <MDBCardBody>
                 <MDBCardText>
-                Apart from my passion for software development, I’m an active, energetic, and healthy person. I like playing basketball with my friends which improves my physical fitness and develops team spirit. Outside the court, I see the world through the eyes of a photographer and find beauty in ordinary things. Recently, I have also developed a passion for fashion, dressing in new outfits to unveil my creativity. My interests go even beyond that—I exercise at the gym to feel fresh and full of energy, play video games to enter a different world, build 3D metal laser-cut models, put together large Gundams, and assemble small Pokémon Legos. These hobbies give me a sense of accomplishment and satisfaction. 
+                In addition to the love for software development, I am outgoing, full of energy, and in good physical and mental health. I prefer to engage in basketball with my friends and the experience enhances the physical workouts as well as boosting the morale of teamwork. In this case, the world outside the court looks beautiful as I am a photographer and I get to see beauty in almost anything. Recently I have also grown fond of fashion, wearing new outfits and outdooring my creativity. My interests go even beyond that—I exercise at the gym to feel fresh and full of energy, play video games to enter a different world, build 3D metal laser-cut models, put together large Gundams, and assemble small Pokémon Legos. These hobbies help me and provide a feeling of achievement.
                 </MDBCardText>
               </MDBCardBody>
               <MDBIcon
