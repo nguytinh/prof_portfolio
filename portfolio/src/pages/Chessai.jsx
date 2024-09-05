@@ -12,8 +12,8 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import MayLike from '../components/MayLike';
 
-// Import images
 import Chess1 from '../assets/Chess/chess1.jpg';
 import Chess2 from '../assets/Chess/chess2.jpg';
 
@@ -36,8 +36,7 @@ function Chessai() {
             Designed a sophisticated Artificial Intelligence chess robot with Sigma Phi Delta Professional Engineering Fraternity. This project required using complex algorithms and teaching AI systems to play games at a strategic level.</p>
           </MDBCol>
         </MDBRow>
-        {/* GitHub Button */}
-        <MDBRow className="mt-0 mb-8 d-flex justify-content-center"> {/* Adjusted from mt-4 to mt-2 and mb-4 to mb-5 */}
+        <MDBRow className="mt-0 mb-8 d-flex justify-content-center"> 
           <MDBCol md="auto" className="d-flex justify-content-center">
             <MDBBtn
               href="https://github.com/keonroohparvar/AI_ChessEngine"
@@ -48,6 +47,7 @@ function Chessai() {
                 transition: 'background-color 0.3s ease',
                 padding: '8px 16px',
                 fontSize: '14px',
+                borderRadius: '30px'
               }}
               onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'gray')}
               onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '')}
@@ -81,6 +81,7 @@ function Chessai() {
             </MDBCard>
           </MDBCol>
         </MDBRow>
+        <MayLike currentProject="Chess AI - Sigma Phi Delta" />
       </MDBContainer>
       <ScrollToTopButton />
     </motion.div>

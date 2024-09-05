@@ -12,6 +12,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import MayLike from "../components/MayLike";
 
 // Import images
 import workbenchImg from '../assets/4yb/workbench.png';
@@ -56,6 +57,7 @@ function Fouryb() {
                 transition: 'background-color 0.3s ease',
                 padding: '8px 16px',
                 fontSize: '14px',
+                borderRadius: '30px'
               }}
               onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'gray')}
               onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '')}
@@ -227,6 +229,7 @@ function Fouryb() {
             </MDBCard>
           </MDBCol>
         </MDBRow>
+        <MayLike currentProject="4YourInventory" />
       </MDBContainer>
       <ScrollToTopButton />
     </motion.div>

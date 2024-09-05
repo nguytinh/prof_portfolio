@@ -12,8 +12,8 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import MayLike from '../components/MayLike';
 
-// Import images
 import Banhmi from '../assets/Restaurant/banhmi.jpeg';
 import Teazer from '../assets/Restaurant/teazer.png';
 import Git from '../assets/Restaurant/git.webp';
@@ -37,8 +37,7 @@ function Restaurant() {
             Created an integrated web application for multiple restaurants with the goal of stimulating business and improving the customers’ experience in three different restaurants. This particular project has effectively raised the general web traffic by 35%; proving my capacity in creating effective, user-friendly solutions.</p>
           </MDBCol>
         </MDBRow>
-        {/* GitHub Button */}
-  <MDBRow className="mt-0 mb-8 d-flex justify-content-center"> {/* Adjusted from mt-4 to mt-2 and mb-4 to mb-5 */}
+  <MDBRow className="mt-0 mb-8 d-flex justify-content-center"> 
     <MDBCol md="auto" className="d-flex justify-content-center">
       <MDBBtn
         href="https://github.com/lac-phong/teazerbobasnacks"
@@ -49,6 +48,7 @@ function Restaurant() {
           transition: 'background-color 0.3s ease',
           padding: '8px 16px',
           fontSize: '14px',
+          borderRadius: '30px'
         }}
         onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'gray')}
         onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '')}
@@ -98,6 +98,7 @@ function Restaurant() {
             </MDBCard>
           </MDBCol>
         </MDBRow>
+        <MayLike currentProject="Adaptive Multi-Restaurant Web Application"/>
       </MDBContainer>
       <ScrollToTopButton />
     </motion.div>

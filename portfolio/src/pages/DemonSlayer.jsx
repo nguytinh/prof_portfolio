@@ -11,8 +11,8 @@ import {
   MDBCardImage
 } from 'mdb-react-ui-kit';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import MayLike from '../components/MayLike';
 
-// Import images
 import Simulation from '../assets/OOP/sim.png';
 import UML from '../assets/OOP/uml.png';
 import CustomIMG from '../assets/OOP/custom.png';
@@ -78,6 +78,7 @@ function DemonSlayer() {
             </MDBCard>
           </MDBCol>
         </MDBRow>
+        <MayLike currentProject="Demon Slayer - Object Oriented Programming Simulation" />
       </MDBContainer>
       <ScrollToTopButton />
     </motion.div>

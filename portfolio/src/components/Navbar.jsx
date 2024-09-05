@@ -20,26 +20,23 @@ function NavigationBar() {
         style={{ boxShadow: 'none', paddingTop: '20px' }}
       >
         <Container>
-          {/* Toggle Button for Collapsible Navbar, aligned to the right */}
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => setExpanded(expanded ? false : 'expanded')}
-            style={{ borderColor: 'transparent', marginLeft: 'auto' }} // Aligns the toggle button to the right
+            style={{ borderColor: 'transparent', marginLeft: 'auto' }} 
           >
-            {/* Custom icon for the toggle button */}
             <span style={{ color: 'black' }}>&#9776;</span>
           </Navbar.Toggle>
 
-          {/* Collapsible Navbar Links */}
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mx-auto text-center"> {/* Center the Nav items */}
+            <Nav className="mx-auto text-center"> 
               <Nav.Link
                 as={NavLink}
                 to="/"
                 className={getActiveLinkClass('/')}
                 onClick={() => setExpanded(false)}
               >
-                Home
+                Projects
               </Nav.Link>
               <Nav.Link
                 as={NavLink}
@@ -70,7 +67,6 @@ function NavigationBar() {
         </Container>
       </Navbar>
 
-      {/* Divider for styling below the navbar */}
       <div className="wrapper">
         <div className="divider div-transparent div-arrow-down"></div>
       </div>

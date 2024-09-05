@@ -29,7 +29,7 @@ function AboutMe() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3, ease: "easeInOut" }}
-      style={{ position: 'relative', overflow: 'hidden' }} // Ensure the animation fits the container
+      style={{ position: 'relative', overflow: 'hidden' }} 
     >
       <svg
         version="1.1"
@@ -47,8 +47,8 @@ function AboutMe() {
           left: 0,
           width: '100%',
           height: '100%',
-          zIndex: -1, // Place behind other content
-          backgroundColor: '#ffffff', // White background
+          zIndex: -1, 
+          backgroundColor: '#ffffff', 
         }}
       >
         <defs>
@@ -126,6 +126,7 @@ function AboutMe() {
                 transition: 'background-color 0.3s ease',
                 padding: '8px 16px',
                 fontSize: '14px',
+                borderRadius: '30px'
               }}
               onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'gray')}
               onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '')}
@@ -154,7 +155,7 @@ function AboutMe() {
             <MDBCard style={{ border: 'none', textAlign: 'center', width: '100%', boxShadow: 'none', backgroundColor: "rgba(255, 255, 255, 0)" }}>
               <MDBCardBody>
                 <MDBCardText>
-                I’m a third-year computer science student at Cal Poly SLO, my concentration is full-stack development, machine learning and software engineering. Being inspired by curiosity and innovation, I am interested in versatile internships.</MDBCardText>
+                I’m a third-year computer science student at Cal Poly SLO and my focuses are on full-stack development, machine learning and software engineering. Being inspired by curiosity and innovation, I am interested in versatile internships.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -165,7 +166,7 @@ function AboutMe() {
             <MDBCard style={{ border: 'none', boxShadow: 'none', backgroundColor: "rgba(255, 255, 255, 0)", paddingBottom:"60px" }}>
               <MDBCardBody>
                 <MDBCardText>
-                In addition to the love for software development, I am outgoing, full of energy, and am driven by success. I like to play in basketball with my friends and this experience enhances my physical workouts as well as boost my morale of teamwork. Additionally, the world outside the court looks beautiful as I am a photographer and I get to see beauty in almost anything. I have also grown fond of fashion, wearing new outfits and outdooring my creativity. My interests go even beyond that. I exercise at the gym to feel fresh and full of energy, play video games to enter a different world, build 3D metal laser-cut models, put together large Gundams, and assemble small Pokémon Legos. These hobbies help me and provide a feeling of achievement.
+                In addition to the love for software development, I am outgoing, full of energy, and am driven by success. I like to play in basketball with my friends and this experience enhances my physical workouts as well as boost my morale of teamwork. Additionally, I have been getting into photography and I have gotten into the habit of viewing everything I see in a different lens; helping me see the beauty in things that other people don't. I have also grown fond of fashion, wearing new outfits and outdooring my creativity. Along with this, my interests go even further. I exercise at the gym to feel fresh and full of energy, play video games to enter a different world, build 3D metal laser-cut models, put together large Gundams, and assemble small Pokémon Legos. These hobbies help me and provide a feeling of achievement.
                 </MDBCardText>
               </MDBCardBody>
               <MDBIcon

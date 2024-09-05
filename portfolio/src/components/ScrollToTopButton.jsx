@@ -1,9 +1,8 @@
 import React from 'react';
-import { animateScroll as scroll } from 'react-scroll'; // Import scroll instead of scroller
+import { animateScroll as scroll } from 'react-scroll'; 
 import { MDBIcon } from 'mdb-react-ui-kit';
 
 function ScrollToTopButton() {
-  // Function to scroll to the top
   const scrollToTop = () => {
     scroll.scrollToTop({
       duration: 200,

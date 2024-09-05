@@ -6,24 +6,21 @@ import "../styles/Home.css";
 import resume from '../assets/Tinh_s_Resume.pdf';
 import { motion } from 'framer-motion';
 
-// Import images
 import inventoryImage from '../assets/inventory.jpg';
 import chessImage from '../assets/chess.jpg';
 import restaurantImage from '../assets/restaurant.jpg';
 import oopImage from '../assets/oop.jpg';
 
 function Home() {
-  // Function to scroll to top
   const scrollToTop = () => {
     scroller.scrollTo('top', {
       duration: 200,
       delay: 0,
       smooth: 'easeInOutQuart',
-      offset: -180, // Adjust for the height of your navbar
+      offset: -180, 
     });
   };
 
-  // Function to handle card click and scroll to top
   const handleCardClick = () => {
     scrollToTop();
   };
@@ -34,12 +31,11 @@ function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{
-        duration: 0.3, // Smooth animation duration
-        ease: "easeInOut" // Easing function for a smoother transition
+        duration: 0.3, 
+        ease: "easeInOut" 
       }}
     >
       <MDBContainer className="text-center" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', paddingTop: '60px' }}>
-        {/* Header */}
         <MDBRow id="top">
           <MDBCol>
             <h1 style={{ fontSize: '3rem', color: 'black' }}>Tinh-Phong Nguyen</h1>
@@ -47,18 +43,18 @@ function Home() {
           </MDBCol>
         </MDBRow>
 
-        {/* Resume Button */}
         <MDBRow className="my-4">
           <MDBCol>
             <MDBBtn
               href={resume}
               target="_blank"
               color="dark"
-              size="sm" // Adjust size to small
+              size="sm"
               style={{
-                transition: 'background-color 0.3s ease', // Smooth transition
-                padding: '8px 16px', // Adjust padding to make the button smaller
-                fontSize: '14px', // Adjust font size to make the button text smaller
+                transition: 'background-color 0.3s ease', 
+                padding: '8px 16px', 
+                fontSize: '14px', 
+                borderRadius: '30px'
               }}
               onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'gray')}
               onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '')}
@@ -68,7 +64,6 @@ function Home() {
           </MDBCol>
         </MDBRow>
 
-        {/* Social Icons */}
         <MDBRow className="mb-5">
           <MDBCol>
             <a href="https://github.com/nguytinh" target="_blank" rel="noopener noreferrer" className="social-icon">
@@ -83,7 +78,6 @@ function Home() {
           </MDBCol>
         </MDBRow>
 
-        {/* Project Cards */}
         <MDBRow className="mb-4" style={{ borderColor: 'white', borderRadius:"0%" }}>
           <MDBCol md="12" style={{ borderColor: 'white', borderRadius:"0%" }}>
             <Link to="/4yourinventory" style={{ textDecoration: 'none', borderRadius: "0%" }} onClick={handleCardClick}>
@@ -111,7 +105,6 @@ function Home() {
           </MDBCol>
         </MDBRow>
 
-        {/* Repeat for other cards */}
         <MDBRow className="mb-4">
           <MDBCol md="12">
             <Link to="/chess" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
@@ -139,7 +132,6 @@ function Home() {
           </MDBCol>
         </MDBRow>
 
-        {/* Add similar structures for other project cards */}
         <MDBRow className="mb-4">
           <MDBCol md="12">
             <Link to="/restaurant" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
@@ -194,7 +186,6 @@ function Home() {
           </MDBCol>
         </MDBRow>
 
-        {/* Back to Top Button */}
         <MDBRow className="mt-5">
           <MDBCol className="text-center">
             <MDBIcon

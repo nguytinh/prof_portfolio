@@ -42,8 +42,8 @@ function Contact() {
   animate={{ opacity: 1 }}
   exit={{ opacity: 0 }}
   transition={{
-    duration: 0.3, // Smooth animation duration
-    ease: "easeInOut" // Easing function for a smoother transition
+    duration: 0.3, 
+    ease: "easeInOut" 
   }}
     >
     <Container className="my-5">
