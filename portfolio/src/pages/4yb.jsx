@@ -41,8 +41,7 @@ function Fouryb() {
           <MDBCol md="8">
             <h1 className="display-4 mb-4">4YourInventory</h1>
             <p className="lead mb-5">
-              4YourInventory is the official inventory management system developed during my tenure as a Software Engineering Intern for 4YourBusiness Inc. This application revolutionizes the company's approach to managing inventory and database operations by transitioning from an archaic Microsoft Access 2003 system to a modern MySQL architecture. It features a seamlessly integrated web and desktop application platform, designed for optimal efficiency and user experience.
-            </p>
+            4YourInventory is the official inventory management, which I have created during my work at 4YourBusiness Inc as the Software Engineering Intern. This application changed the company’s way of managing inventories and database activities moving from the MS Access 2003 environment to the MySQL one. There are web and desktop application ideas that are easily integrated; ideas based on efficiency and user interface.</p>
           </MDBCol>
         </MDBRow>
         {/* GitHub Button */}
@@ -77,8 +76,7 @@ function Fouryb() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Refactoring the Database</MDBCardTitle>
                 <MDBCardText>
-                  The project commenced with the meticulous task of refactoring a legacy Microsoft Access 2003 database into a robust MySQL schema using MySQL Workbench. This initial phase showcased my ability to modernize outdated systems and optimize database performance, laying the foundation for a more sophisticated and efficient inventory management solution.
-                </MDBCardText>
+                The project was initiated with a quite mechanical and time-consuming process of converting a poorly structured Microsoft Access 2003 database to a highly structured MySQL database using MySQL work bench. It was in this first part of the project where I proved my competency in updating and enhancing the primitive and slow database methods paving way for a much better implementation of integrated inventory system.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -96,8 +94,7 @@ function Fouryb() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Database Optimization and Hosting</MDBCardTitle>
                 <MDBCardText>
-                  Following extensive SQL query optimization and database refinements, the final product was an impeccably designed and highly organized database. We utilized Host Monster for cloud hosting, ensuring reliable access and performance. This phase highlighted my skills in SQL, database design, and cloud hosting solutions.
-                </MDBCardText>
+                After the optimization of SQL queries and database improvements, it was finally a clean, well-structured and arranged database. For the hosting solution, we used Host Monster for cloud hosting which guarantees the users proper access and impressive performance. This phase brought me at par in handling SQL, database designing in cloud hosting solutions.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -115,8 +112,7 @@ function Fouryb() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Technologies Used</MDBCardTitle>
                 <MDBCardText>
-                  The application leverages a comprehensive tech stack including React, Node.js, Express.js, and Electron.js, coupled with HTML/CSS for front-end development. The web application is powered by Express.js and Axios for backend operations, while the desktop version utilizes Electron.js to integrate local system functions for efficient CRUD operations through IPC (Inter-Process Communication).
-                </MDBCardText>
+                The application developed makes use of a rather large tech stack comprising of React.js, Node. js, Express. js, and Electron. js, combined with HTML and CSS for front-end development. The web application version of our project is built with Express as the back-end, whereas the desktop version is made using Electron.js to perform the prerequisites of local system functions for CRUD operations and implementation through IPC.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -134,8 +130,7 @@ function Fouryb() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Secure Authentication</MDBCardTitle>
                 <MDBCardText>
-                  The login interface is secured using Firebase for authentication, providing robust and reliable user credential storage. This ensures data protection and access control within the application, showcasing my ability to implement secure authentication mechanisms.
-                </MDBCardText>
+                The login interface is implemented using Firebase for authentication thus ensuring that user credentials are safe and secure. This ensures data protection and access control within the application, showcasing my ability to implement secure authentication mechanisms.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
