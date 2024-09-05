@@ -76,7 +76,7 @@ function Chessai() {
               <MDBCardBody style={{ textAlign: 'center', padding: "30px" }}>
                 <MDBCardTitle>Innovative AI Implementation</MDBCardTitle>
                 <MDBCardText>
-                The AI chess robot was created using highly sophisticated methods such as Alpha Beta Pruning algorithms in Python that help to navigate through the search tree faster in relation to the time needed to make a decision during the game play. The AI was trained on TensorFlow for a large dataset of Lichess games, breaking ties in CNN and improving the AI’s accuracy. The AI currently is leveled with a rating of around 1200 or 1300.</MDBCardText>
+                The AI chess robot was created using highly sophisticated methods such as Alpha Beta Pruning algorithms in Python that help to navigate through the search tree faster in relation to the time needed to make a decision during the game play. The AI was trained on TensorFlow for a large dataset of Lichess games, breaking ties in CNN and improving the AI’s accuracy. The AI currently is leveled with a rating of around 1500.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
