@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prof_portfolio/static/css/main.9a58e84b.css",
-    "main.js": "/prof_portfolio/static/js/main.187f8e93.js",
+    "main.js": "/prof_portfolio/static/js/main.67558d09.js",
     "static/js/453.ace21015.chunk.js": "/prof_portfolio/static/js/453.ace21015.chunk.js",
     "static/media/img11.JPG": "/prof_portfolio/static/media/img11.a6bcb3f703957bc7859f.JPG",
     "static/media/img1.JPG": "/prof_portfolio/static/media/img1.249d1c76708abedd32ed.JPG",
@@ -18,6 +18,7 @@
     "static/media/lockedpage.png": "/prof_portfolio/static/media/lockedpage.a1a35928e645e98599bf.png",
     "static/media/inventory.jpg": "/prof_portfolio/static/media/inventory.d5dd83c70dc12e25f69f.jpg",
     "static/media/img2.JPEG": "/prof_portfolio/static/media/img2.a9b9d36e74bf52c79f0f.JPEG",
+    "static/media/oop.jpg": "/prof_portfolio/static/media/oop.7d655b5c9ef8d6606904.jpg",
     "static/media/chess.jpg": "/prof_portfolio/static/media/chess.10483c914bf22a7ec9c4.jpg",
     "static/media/img6.JPEG": "/prof_portfolio/static/media/img6.3d21c2bdb9e637ae56fa.JPEG",
     "static/media/hostmonster.png": "/prof_portfolio/static/media/hostmonster.a906b56a0073e1def33e.png",
@@ -26,7 +27,6 @@
     "static/media/chess2.jpg": "/prof_portfolio/static/media/chess2.da2301a4de9d89493ea5.jpg",
     "static/media/chess1.jpg": "/prof_portfolio/static/media/chess1.7bd627c92d3610879040.jpg",
     "static/media/banhmi.jpeg": "/prof_portfolio/static/media/banhmi.a2ec850c4c5c7b7cb320.jpeg",
-    "static/media/oop.jpg": "/prof_portfolio/static/media/oop.964518f6852c9c68042d.jpg",
     "static/media/4invLOGO.png": "/prof_portfolio/static/media/4invLOGO.b5740aa1672b81f8e61a.png",
     "static/media/search.png": "/prof_portfolio/static/media/search.f9c55be483cc0ab1c060.png",
     "static/media/fa-solid-900.ttf": "/prof_portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -50,11 +50,11 @@
     "static/media/fa-v4compatibility.woff2": "/prof_portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/prof_portfolio/index.html",
     "main.9a58e84b.css.map": "/prof_portfolio/static/css/main.9a58e84b.css.map",
-    "main.187f8e93.js.map": "/prof_portfolio/static/js/main.187f8e93.js.map",
+    "main.67558d09.js.map": "/prof_portfolio/static/js/main.67558d09.js.map",
     "453.ace21015.chunk.js.map": "/prof_portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a58e84b.css",
-    "static/js/main.187f8e93.js"
+    "static/js/main.67558d09.js"
   ]
 }
