@@ -96,7 +96,7 @@ function Chessai() {
                     Throughout the development, I honed my skills in:
                     <ul style={{ listStyleType: 'none', padding: 0 }}>
                         <li><strong>Backend Development:</strong> Utilizing Flask to build a robust server-side architecture.</li>
-                        <li><strong>Frontend Development:</strong> Utilizing HTML/CSS to create a clean and organized UI for the user.</li>
+                        <li><strong>Frontend Development:</strong> Utilizing JavaScript and HTML/CSS to create a clean and organized UI for the user.</li>
                         <li><strong>RESTful API Design:</strong> Creating endpoints for user interactions and game state management.</li>
                         <li><strong>Containerization:</strong> Using Docker to encapsulate the application and its dependencies for easier deployment.</li>
                     </ul>
