@@ -56,6 +56,24 @@ function Chessai() {
               GitHub
             </MDBBtn>
           </MDBCol>
+          <MDBCol md="auto" className="d-flex justify-content-center">
+            <MDBBtn
+              href="https://aim-trainer-nk0b.onrender.com/"
+              target="_blank"
+              color="dark"
+              size="sm"
+              style={{
+                transition: 'background-color 0.3s ease',
+                padding: '8px 16px',
+                fontSize: '14px',
+                borderRadius: '30px'
+              }}
+              onMouseOver={(e) => (e.currentTarget.style.backgroundColor = 'gray')}
+              onMouseOut={(e) => (e.currentTarget.style.backgroundColor = '')}
+            >
+              Play Here!
+            </MDBBtn>
+          </MDBCol>
         </MDBRow>
         <MDBRow className="my-4 justify-content-center">
           <MDBCol md="auto" className="d-flex justify-content-center">
