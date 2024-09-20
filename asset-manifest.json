@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prof_portfolio/static/css/main.9a58e84b.css",
-    "main.js": "/prof_portfolio/static/js/main.82d76355.js",
+    "main.js": "/prof_portfolio/static/js/main.80deb81d.js",
     "static/js/453.ace21015.chunk.js": "/prof_portfolio/static/js/453.ace21015.chunk.js",
     "static/media/img11.JPG": "/prof_portfolio/static/media/img11.a6bcb3f703957bc7859f.JPG",
     "static/media/img1.JPG": "/prof_portfolio/static/media/img1.249d1c76708abedd32ed.JPG",
@@ -25,19 +25,20 @@
     "static/media/hostmonster.png": "/prof_portfolio/static/media/hostmonster.a906b56a0073e1def33e.png",
     "static/media/restaurant.jpg": "/prof_portfolio/static/media/restaurant.326420be49ebe568f443.jpg",
     "static/media/git.webp": "/prof_portfolio/static/media/git.8318e5e715c41a245f37.webp",
+    "static/media/aim3.png": "/prof_portfolio/static/media/aim3.f38933c47f21aa17a32c.png",
     "static/media/chess2.jpg": "/prof_portfolio/static/media/chess2.da2301a4de9d89493ea5.jpg",
     "static/media/chess1.jpg": "/prof_portfolio/static/media/chess1.7bd627c92d3610879040.jpg",
     "static/media/banhmi.jpeg": "/prof_portfolio/static/media/banhmi.a2ec850c4c5c7b7cb320.jpeg",
+    "static/media/aim1.png": "/prof_portfolio/static/media/aim1.bf90d40908c62e8a9aec.png",
     "static/media/4invLOGO.png": "/prof_portfolio/static/media/4invLOGO.b5740aa1672b81f8e61a.png",
     "static/media/search.png": "/prof_portfolio/static/media/search.f9c55be483cc0ab1c060.png",
     "static/media/fa-solid-900.ttf": "/prof_portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/aim2.png": "/prof_portfolio/static/media/aim2.7cedd1eb48041ee3f258.png",
     "static/media/fulltable.png": "/prof_portfolio/static/media/fulltable.c7b31ac68bb8880592f9.png",
     "static/media/uml.png": "/prof_portfolio/static/media/uml.b67659fafff40c8625d2.png",
-    "static/media/aim1.png": "/prof_portfolio/static/media/aim1.36d2c154bd5f2738df6f.png",
     "static/media/dynamicSearch.png": "/prof_portfolio/static/media/dynamicSearch.af554b56d2b3f3a34633.png",
     "static/media/profile.JPG": "/prof_portfolio/static/media/profile.db6ed3f5a9362ed6a015.JPG",
     "static/media/partsTable.png": "/prof_portfolio/static/media/partsTable.d3e02e533ae5fcfcc3c9.png",
-    "static/media/aim3.png": "/prof_portfolio/static/media/aim3.4488c2e2793ceddf3732.png",
     "static/media/sim.png": "/prof_portfolio/static/media/sim.435814c8fa843262f9b2.png",
     "static/media/fa-brands-400.ttf": "/prof_portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/addproduct.png": "/prof_portfolio/static/media/addproduct.e4389578641875af61c1.png",
@@ -47,18 +48,17 @@
     "static/media/Tinh_s_Resume.pdf": "/prof_portfolio/static/media/Tinh_s_Resume.9e1b23f51676655eac09.pdf",
     "static/media/workbench.png": "/prof_portfolio/static/media/workbench.98ec8faa8413d5376de0.png",
     "static/media/ebayapi.jpg": "/prof_portfolio/static/media/ebayapi.456fdbb6a23900f7643e.jpg",
-    "static/media/aim2.png": "/prof_portfolio/static/media/aim2.a8e5b8df7b0b43d32eb0.png",
     "static/media/fa-regular-400.ttf": "/prof_portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/fa-regular-400.woff2": "/prof_portfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/prof_portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/prof_portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/prof_portfolio/index.html",
     "main.9a58e84b.css.map": "/prof_portfolio/static/css/main.9a58e84b.css.map",
-    "main.82d76355.js.map": "/prof_portfolio/static/js/main.82d76355.js.map",
+    "main.80deb81d.js.map": "/prof_portfolio/static/js/main.80deb81d.js.map",
     "453.ace21015.chunk.js.map": "/prof_portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a58e84b.css",
-    "static/js/main.82d76355.js"
+    "static/js/main.80deb81d.js"
   ]
 }
