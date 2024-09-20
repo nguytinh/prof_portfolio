@@ -10,6 +10,7 @@ import inventoryImage from '../assets/inventory.jpg';
 import chessImage from '../assets/chess.jpg';
 import restaurantImage from '../assets/restaurant.jpg';
 import oopImage from '../assets/oop.jpg';
+import aimImage from '../assets/aim.jpg';
 
 function Home() {
   const scrollToTop = () => {
@@ -122,6 +123,33 @@ function Home() {
                         <MDBCardTitle>Chess AI - Sigma Phi Delta</MDBCardTitle>
                         <MDBCardText style={{ fontSize: '16px' }}>
                           Technologies: Python, Pycharm, Tensorflow
+                        </MDBCardText>
+                      </MDBCardBody>
+                    </div>
+                  </a>
+                </div>
+              </MDBCard>
+            </Link>
+          </MDBCol>
+        </MDBRow>
+
+        <MDBRow className="mb-4">
+          <MDBCol md="12">
+            <Link to="/aim" style={{ textDecoration: 'none' }} onClick={handleCardClick}>
+              <MDBCard className="hover-card" style={{ borderColor: 'white' }}>
+                <div className="bg-image hover-overlay" style={{ borderColor: 'white', borderRadius:"0%" }}>
+                  <img src={aimImage} className="w-100" alt="Dart Board" style={{ height: '300px', objectFit: 'cover' }} />
+                  <a href="#!">
+                    <div
+                      className="mask d-flex align-items-center justify-content-center"
+                      style={{
+                        background: 'linear-gradient(45deg, rgba(0, 0, 0, 100), rgba(100, 100, 100, 0.4) 100%)'
+                      }}
+                    >
+                      <MDBCardBody style={{ color: 'white', textAlign: 'center' }}>
+                        <MDBCardTitle>Aim Trainer</MDBCardTitle>
+                        <MDBCardText style={{ fontSize: '16px' }}>
+                          Technologies: Python, Flask, Docker
                         </MDBCardText>
                       </MDBCardBody>
                     </div>

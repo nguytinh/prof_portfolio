@@ -9,6 +9,7 @@ import DemonSlayer from '../pages/DemonSlayer';
 import  Restaurant  from '../pages/Restaurant';
 import Chessai from '../pages/Chessai';
 import More from '../pages/More';
+import Aim from '../pages/Aim';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -24,6 +25,7 @@ function AnimatedRoutes() {
         <Route path="/restaurant" element={<Restaurant />} />
         <Route path="/chess" element={<Chessai />} />
         <Route path="/more" element={<More />} />
+        <Route path="/aim" element={<Aim />} />
       </Routes>
     </AnimatePresence>
   );

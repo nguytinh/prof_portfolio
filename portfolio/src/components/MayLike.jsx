@@ -5,6 +5,7 @@ import chessImage from '../assets/Chess/chess1.jpg';
 import restaurantImage from '../assets/Restaurant/banhmi.jpeg';
 import oopImage from '../assets/OOP/custom.png';
 import inventoryImage from '../assets/4yb/lockedpage.png';
+import aimImage from '../assets/aim.jpg';
 
 function MayLike({ currentProject }) {
   const projects = [
@@ -32,9 +33,19 @@ function MayLike({ currentProject }) {
       image: inventoryImage,
       link: '/4yourinventory',
     },
+    {
+      title: 'Aim Trainer',
+      year: '2024',
+      image: aimImage,
+      link: '/aim',
+    },
   ];
 
+  // Filter out the current project
   const filteredProjects = projects.filter(project => project.title !== currentProject);
+
+  // Randomize and slice to get only three projects
+  const randomizedProjects = filteredProjects.sort(() => 0.5 - Math.random()).slice(0, 3);
 
   const handleCardClick = () => {
     window.scrollTo({
@@ -47,7 +58,7 @@ function MayLike({ currentProject }) {
     <div style={{ paddingTop: "80px" }}>
       <h5 style={{ paddingBottom: "10px" }}>You may also like:</h5>
       <MDBRow>
-        {filteredProjects.map((project, index) => (
+        {randomizedProjects.map((project, index) => (
           <MDBCol key={index}>
             <Link to={project.link} style={{ textDecoration: 'none' }} onClick={handleCardClick}>
               <MDBCard
