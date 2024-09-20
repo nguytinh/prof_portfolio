@@ -149,7 +149,7 @@ function Home() {
                       <MDBCardBody style={{ color: 'white', textAlign: 'center' }}>
                         <MDBCardTitle>Aim Trainer</MDBCardTitle>
                         <MDBCardText style={{ fontSize: '16px' }}>
-                          Technologies: Python, Flask, Docker, HTML/CSS
+                          Technologies: Python, Flask, Docker, JavaScript, HTML/CSS
                         </MDBCardText>
                       </MDBCardBody>
                     </div>
