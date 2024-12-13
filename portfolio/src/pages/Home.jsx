@@ -7,6 +7,7 @@ import resume from '../assets/Tinh_s_Resume.pdf';
 import { motion } from 'framer-motion';
 
 import inventoryImage from '../assets/inventory.jpg';
+import neuralnetworkImage from '../assets/nnbench.jpg';
 import chessImage from '../assets/chess.jpg';
 import restaurantImage from '../assets/restaurant.jpg';
 import oopImage from '../assets/oop.jpg';
@@ -76,6 +77,33 @@ function Home() {
             <a href="mailto:tinhphong04@gmail.com" className="social-icon">
               <MDBIcon fas icon="envelope"/>
             </a>
+          </MDBCol>
+        </MDBRow>
+
+        <MDBRow className="mb-4" style={{ borderColor: 'white', borderRadius:"0%" }}>
+          <MDBCol md="12" style={{ borderColor: 'white', borderRadius:"0%" }}>
+            <Link to="/benchmark" style={{ textDecoration: 'none', borderRadius: "0%" }} onClick={handleCardClick}>
+              <MDBCard className="hover-card" style={{ borderColor: 'white', borderRadius:"0%" }}>
+                <div className="bg-image hover-overlay" style={{ borderColor: 'white', borderRadius:"0%" }}>
+                  <img src={neuralnetworkImage} className="w-100" alt="Neural Network" style={{ height: '300px', objectFit: 'cover', borderRadius: "0%"}} />
+                  <a href="#!">
+                    <div
+                      className="mask d-flex align-items-center justify-content-center"
+                      style={{
+                        background: 'linear-gradient(45deg, rgba(0, 0, 0, 100), rgba(100, 100, 100, 0.4) 100%)'
+                      }}
+                    >
+                      <MDBCardBody style={{ color: 'white', textAlign: 'center' }}>
+                        <MDBCardTitle>Neural Network Benchmark</MDBCardTitle>
+                        <MDBCardText style={{ fontSize: '16px' }}>
+                          Technologies: Python, Google Colab, Tensorflow, Keras, Minitab
+                        </MDBCardText>
+                      </MDBCardBody>
+                    </div>
+                  </a>
+                </div>
+              </MDBCard>
+            </Link>
           </MDBCol>
         </MDBRow>
 

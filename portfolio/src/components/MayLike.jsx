@@ -6,6 +6,7 @@ import restaurantImage from '../assets/Restaurant/banhmi.jpeg';
 import oopImage from '../assets/OOP/custom.png';
 import inventoryImage from '../assets/4yb/lockedpage.png';
 import aimImage from '../assets/aim.jpg';
+import nnIMAGE from '../assets/nnbench.jpg';
 
 function MayLike({ currentProject }) {
   const projects = [
@@ -39,6 +40,12 @@ function MayLike({ currentProject }) {
       image: aimImage,
       link: '/aim',
     },
+    {
+      title: 'Neural Network Benchmark',
+      year: '2024',
+      image: nnIMAGE,
+      link: '/benchmark',
+    }
   ];
 
   // Filter out the current project

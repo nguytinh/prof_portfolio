@@ -10,6 +10,7 @@ import  Restaurant  from '../pages/Restaurant';
 import Chessai from '../pages/Chessai';
 import More from '../pages/More';
 import Aim from '../pages/Aim';
+import NeuralNetwork from '../pages/Neuralnetwork';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function AnimatedRoutes() {
         <Route path="/chess" element={<Chessai />} />
         <Route path="/more" element={<More />} />
         <Route path="/aim" element={<Aim />} />
+        <Route path="/benchmark" element={<NeuralNetwork />} />
       </Routes>
     </AnimatePresence>
   );
