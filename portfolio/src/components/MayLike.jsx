@@ -7,6 +7,7 @@ import oopImage from '../assets/OOP/custom.png';
 import inventoryImage from '../assets/4yb/lockedpage.png';
 import aimImage from '../assets/aim.jpg';
 import nnIMAGE from '../assets/nnbench.jpg';
+import aeryImage from '../assets/aery.jpg';
 
 function MayLike({ currentProject }) {
   const projects = [
@@ -45,6 +46,12 @@ function MayLike({ currentProject }) {
       year: '2024',
       image: nnIMAGE,
       link: '/benchmark',
+    },
+    {
+      title: 'Aery',
+      year: '2024',
+      image: aeryImage,
+      link: '/aery',
     }
   ];
 

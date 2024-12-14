@@ -11,6 +11,7 @@ import Chessai from '../pages/Chessai';
 import More from '../pages/More';
 import Aim from '../pages/Aim';
 import NeuralNetwork from '../pages/Neuralnetwork';
+import Aery from '../pages/Aery';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -28,6 +29,7 @@ function AnimatedRoutes() {
         <Route path="/more" element={<More />} />
         <Route path="/aim" element={<Aim />} />
         <Route path="/benchmark" element={<NeuralNetwork />} />
+        <Route path="/aery" element={<Aery />} />
       </Routes>
     </AnimatePresence>
   );
