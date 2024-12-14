@@ -44,7 +44,7 @@ function Aery() {
         <MDBRow className="mt-0 mb-8 d-flex justify-content-center"> 
           <MDBCol md="auto" className="d-flex justify-content-center">
             <MDBBtn
-              href="https://github.com/CSC307Fall2024/Aery"
+              href="https://github.com/nguytinh/Aery"
               target="_blank"
               color="dark"
               size="sm"
