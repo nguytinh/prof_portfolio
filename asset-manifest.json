@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prof_portfolio/static/css/main.9a58e84b.css",
-    "main.js": "/prof_portfolio/static/js/main.276cf1bf.js",
+    "main.js": "/prof_portfolio/static/js/main.a6bebf8a.js",
     "static/js/453.ace21015.chunk.js": "/prof_portfolio/static/js/453.ace21015.chunk.js",
     "static/media/img11.JPG": "/prof_portfolio/static/media/img11.a6bcb3f703957bc7859f.JPG",
     "static/media/img1.png": "/prof_portfolio/static/media/img1.a6b91e7acd4317db6ff8.png",
@@ -55,8 +55,8 @@
     "static/media/custom.png": "/prof_portfolio/static/media/custom.0ceb5cb9fab74b797f0c.png",
     "static/media/img7.png": "/prof_portfolio/static/media/img7.c5918cc9ef610f3e8157.png",
     "static/media/fa-solid-900.woff2": "/prof_portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/Tinh_s_Resume.pdf": "/prof_portfolio/static/media/Tinh_s_Resume.7870778b85cc234e2e84.pdf",
     "static/media/fa-brands-400.woff2": "/prof_portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/Tinh_s_Resume.pdf": "/prof_portfolio/static/media/Tinh_s_Resume.9d3c15dfd85be206f3f2.pdf",
     "static/media/workbench.png": "/prof_portfolio/static/media/workbench.98ec8faa8413d5376de0.png",
     "static/media/img12.png": "/prof_portfolio/static/media/img12.3eeeee7f483172b63428.png",
     "static/media/ebayapi.jpg": "/prof_portfolio/static/media/ebayapi.456fdbb6a23900f7643e.jpg",
@@ -69,11 +69,11 @@
     "static/media/fa-v4compatibility.woff2": "/prof_portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/prof_portfolio/index.html",
     "main.9a58e84b.css.map": "/prof_portfolio/static/css/main.9a58e84b.css.map",
-    "main.276cf1bf.js.map": "/prof_portfolio/static/js/main.276cf1bf.js.map",
+    "main.a6bebf8a.js.map": "/prof_portfolio/static/js/main.a6bebf8a.js.map",
     "453.ace21015.chunk.js.map": "/prof_portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a58e84b.css",
-    "static/js/main.276cf1bf.js"
+    "static/js/main.a6bebf8a.js"
   ]
 }
