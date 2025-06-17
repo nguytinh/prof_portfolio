@@ -13,6 +13,7 @@ import restaurantImage from '../assets/restaurant.jpg';
 import oopImage from '../assets/oop.jpg';
 import aimImage from '../assets/aim.jpg';
 import aeryImage from '../assets/aery.jpg';
+import horseImage from '../assets/horsegpt.jpg';
 
 function Home() {
   const scrollToTop = () => {
@@ -78,6 +79,33 @@ function Home() {
             <a href="mailto:tinhphong04@gmail.com" className="social-icon">
               <MDBIcon fas icon="envelope"/>
             </a>
+          </MDBCol>
+        </MDBRow>
+
+        <MDBRow className="mb-4" style={{ borderColor: 'white', borderRadius:"0%" }}>
+          <MDBCol md="12" style={{ borderColor: 'white', borderRadius:"0%" }}>
+            <Link to="/horsegpt" style={{ textDecoration: 'none', borderRadius: "0%" }} onClick={handleCardClick}>
+              <MDBCard className="hover-card" style={{ borderColor: 'white', borderRadius:"0%" }}>
+                <div className="bg-image hover-overlay" style={{ borderColor: 'white', borderRadius:"0%" }}>
+                  <img src={horseImage} className="w-100" alt="HorseGPT" style={{ height: '300px', objectFit: 'cover', borderRadius: "0%"}} />
+                  <a href="#!">
+                    <div
+                      className="mask d-flex align-items-center justify-content-center"
+                      style={{
+                        background: 'linear-gradient(45deg, rgba(0, 0, 0, 100), rgba(100, 100, 100, 0.4) 100%)'
+                      }}
+                    >
+                      <MDBCardBody style={{ color: 'white', textAlign: 'center' }}>
+                        <MDBCardTitle>HorseGPT</MDBCardTitle>
+                        <MDBCardText style={{ fontSize: '16px' }}>
+                          Technologies: Python, Torch, Pandas, Unsloth, JavaScript, React, Gemma 3, Llama 2
+                        </MDBCardText>
+                      </MDBCardBody>
+                    </div>
+                  </a>
+                </div>
+              </MDBCard>
+            </Link>
           </MDBCol>
         </MDBRow>
 
