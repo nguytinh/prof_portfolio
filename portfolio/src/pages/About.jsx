@@ -155,7 +155,7 @@ function AboutMe() {
             <MDBCard style={{ border: 'none', textAlign: 'center', width: '100%', boxShadow: 'none', backgroundColor: "rgba(255, 255, 255, 0)" }}>
               <MDBCardBody>
                 <MDBCardText>
-                I’m a third-year computer science student at Cal Poly SLO and my focuses are on full-stack development, machine learning and software engineering. Being inspired by curiosity and innovation, I am interested in versatile internships.</MDBCardText>
+                I’m a fourth-year computer science student at Cal Poly SLO and my focuses are on full-stack development, machine learning and software engineering. Being inspired by curiosity and innovation, I am interested in versatile internships.</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
